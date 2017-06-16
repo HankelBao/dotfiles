@@ -1,7 +1,7 @@
 ln -s ~/dotfiles/vim/.vimrc ~/.vimrc
 ln -s ~/dotfiles/vim/.vim ~/.vim
 ln -s ~/dotfiles/vim/.vim-config/ ~/.vim-config
-cd ~/autoload/
+cd ~/.vim/autoload/
 git clone https://github.com/junegunn/vim-plug.git
 
 #ln -s ~/dotfiles/tmux/.tmux.conf ~/.tmux.conf
