@@ -12,17 +12,13 @@ call plug#begin('~/.vim/plugged')
     Plug 'Yggdroot/indentLine'
     Plug 'Shougo/neocomplete.vim'
     Plug 'Rip-Rip/clang_complete'
-    Plug 'Shougo/unite.vim'
 	" App
     Plug 'vimwiki/vimwiki'
-	Plug 'tpope/vim-speeddating'
-    "Plug 'benmills/vimux'
 	" Manage Files
 	Plug 'ctrlpvim/ctrlp.vim'
 	Plug 'rking/ag.vim'
 	Plug 'FelikZ/ctrlp-py-matcher'
-    "Plug 'junegunn/fzf.vim'
-    "Plug 'scrooloose/nerdtree'
+    Plug 'Shougo/unite.vim'
 call plug#end()
 
 "airline setting
