@@ -1,27 +1,22 @@
-" Neovim has set these as default
-if !has('nvim')
+set nocompatible
 
-  set nocompatible
-
-  syntax on                      " Syntax highlighting
-  filetype plugin indent on      " Automatically detect file types
-  set autoindent                 " Indent at the same level of the previous line
-  set autoread                   " Automatically read a file changed outside of vim
-  set backspace=indent,eol,start " Backspace for dummies
-  set complete-=i                " Exclude files completion
-  set display=lastline           " Show as much as possible of the last line
-  set encoding=utf-8             " Set default encoding
-  set history=10000              " Maximum history record
-  set hlsearch                   " Highlight search terms
-  set incsearch                  " Find as you type search
-  set laststatus=2               " Always show status line
-  set mouse=a                    " Automatically enable mouse usage
-  set smarttab                   " Smart tab
-  set ttyfast                    " Faster redrawing
-  set viminfo+=!                 " Viminfo include !
-  set wildmenu                   " Show list instead of just completing
-
-endif
+syntax on                      " Syntax highlighting
+filetype plugin indent on      " Automatically detect file types
+set autoindent                 " Indent at the same level of the previous line
+set autoread                   " Automatically read a file changed outside of vim
+set backspace=indent,eol,start " Backspace for dummies
+set complete-=i                " Exclude files completion
+set display=lastline           " Show as much as possible of the last line
+set encoding=utf-8             " Set default encoding
+set history=10000              " Maximum history record
+set hlsearch                   " Highlight search terms
+set incsearch                  " Find as you type search
+set laststatus=2               " Always show status line
+set mouse=a                    " Automatically enable mouse usage
+set smarttab                   " Smart tab
+set ttyfast                    " Faster redrawing
+set viminfo+=!                 " Viminfo include !
+"set wildmenu                   " Show list instead of just completing
 
 "set shortmess=a " No help Uganda information, and overwrite read messages to avoid PRESS ENTER prompts
 set ignorecase     " Case insensitive search
@@ -46,17 +41,12 @@ set matchtime=5    " Show matching time
 set report=0       " Always report changed lines
 set linespace=0    " No extra spaces between rows
 
-if !exists('g:vim_better_default_tabs_as_spaces') || g:vim_better_default_tabs_as_spaces
-  set expandtab    " Tabs are spaces, not tabs
-end
-
-" http://stackoverflow.com/questions/6427650/vim-in-tmux-background-color-changes-when-paging/15095377#15095377
 set t_ut=
 
 set winminheight=0
-set wildmode=list:longest,full
+set wildmode=list:longest
 
-set listchars=tab:→\ ,eol:↵,trail:·,extends:↷,precedes:↶
+"set listchars=tab:→\ ,eol:↵,trail:·,extends:↷,precedes:↶
 
 set whichwrap+=<,>,h,l  " Allow backspace and cursor keys to cross line boundaries
 
@@ -80,7 +70,7 @@ vmap k gk
 " Basic Settings
 set autochdir
 colorscheme gruvbox
-let g:airline_theme='monochrome'
+let g:airline_theme='gruvbox'
 set bg=dark
 set noswapfile
 

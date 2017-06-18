@@ -10,9 +10,9 @@ noremap <Leader>8 :8wincmd w<CR>
 noremap <Leader>9 :9wincmd w<CR>
 
 noremap <Leader>f :CtrlPMixed<CR>
-noremap <Leader>o :Unite file<CR>
+noremap <Leader>o :tabedit 
 noremap <Leader>b :CtrlPBuffer<CR>
-noremap <Leader>pa :lcd %:p:h<CR>
+noremap <Leader>cd :lcd %:p:h<CR>
 noremap <Leader>whi :StripWhitespace<CR>
 noremap <C-C> <ESC>
 
