@@ -30,7 +30,7 @@
   else
     let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
   endif
-
+  let g:ctrlp_clear_cache_on_exit = 1
   let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
   nnoremap <Leader>fr :CtrlPMRU<CR>
   nnoremap <C-p> :CtrlP<CR>

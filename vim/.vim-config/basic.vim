@@ -69,8 +69,8 @@ vmap k gk
 
 " Basic Settings
 set autochdir
-colorscheme gruvbox
-let g:airline_theme='gruvbox'
+colorscheme onedark
+let g:airline_theme='onedark'
 set bg=dark
 set noswapfile
 

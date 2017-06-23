@@ -10,7 +10,7 @@ noremap <Leader>8 :8wincmd w<CR>
 noremap <Leader>9 :9wincmd w<CR>
 
 noremap <Leader>f :CtrlPMixed<CR>
-noremap <Leader>o :tabedit 
+noremap <Leader>o :Denite file<CR>
 noremap <Leader>b :CtrlPBuffer<CR>
 noremap <Leader>cd :lcd %:p:h<CR>
 noremap <Leader>whi :StripWhitespace<CR>
@@ -37,3 +37,4 @@ noremap <Leader>wd :tabedit ~/vimwiki/Todo.wiki<CR>
  inoremap <C-k> <Esc><Right>C
  inoremap <C-d> <Esc><Right>s
  inoremap <M-d> <C-o>de
+ inoremap <C-o> <ESC>
