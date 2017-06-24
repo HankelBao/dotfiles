@@ -38,3 +38,4 @@ noremap <Leader>wd :tabedit ~/vimwiki/Todo.wiki<CR>
  inoremap <C-d> <Esc><Right>s
  inoremap <M-d> <C-o>de
  inoremap <C-o> <ESC>
+ noremap <Leader>ne :NERDTree<CR>
