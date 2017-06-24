@@ -9,6 +9,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'scrooloose/nerdtree'
     " Edit
     Plug 'haya14busa/incsearch.vim'
+	Plug 'tpope/vim-surround'
 	" Check
 	Plug 'w0rp/ale'
     Plug 'ntpeters/vim-better-whitespace'
