@@ -1,3 +1,6 @@
+" HankelBao
+" Basic Settings for Vim
+
 set nocompatible
 
 syntax on                      " Syntax highlighting
