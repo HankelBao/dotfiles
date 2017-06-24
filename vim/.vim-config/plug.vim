@@ -1,18 +1,21 @@
 call plug#begin('~/.vim/plugged')
-    " Colorscheme
+    " Interface
 	Plug 'joshdick/onedark.vim'
     Plug 'vim-airline/vim-airline'
-    " Edit && Program
-    Plug 'haya14busa/incsearch.vim'
-	Plug 'w0rp/ale'
-    Plug 'ntpeters/vim-better-whitespace'
-    Plug 'Shougo/neocomplete.vim'
-    Plug 'Rip-Rip/clang_complete'
 	" Manage Files
 	Plug 'ctrlpvim/ctrlp.vim'
 	Plug 'rking/ag.vim'
 	Plug 'FelikZ/ctrlp-py-matcher'
 	Plug 'scrooloose/nerdtree'
+    " Edit
+    Plug 'haya14busa/incsearch.vim'
+	" Check
+	Plug 'w0rp/ale'
+    Plug 'ntpeters/vim-better-whitespace'
+	" Complete
+    Plug 'Shougo/neocomplete.vim'
+    Plug 'Rip-Rip/clang_complete'
+	" git
 	Plug 'tpope/vim-fugitive'
 call plug#end()
 
