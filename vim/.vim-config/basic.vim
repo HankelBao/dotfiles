@@ -24,7 +24,7 @@ set viminfo+=!                 " Viminfo include !
 "set shortmess=a " No help Uganda information, and overwrite read messages to avoid PRESS ENTER prompts
 set ignorecase     " Case insensitive search
 set smartcase      " ... but case sensitive when uc present
-"set scrolljump=5   " Line to scroll when cursor leaves screen
+"set scrolljump=5  " Line to scroll when cursor leaves screen
 set scrolloff=3    " Minumum lines to keep above and below cursor
 set wrap         " Do not wrap long lines
 set shiftwidth=4   " Use indents of 4 spaces
