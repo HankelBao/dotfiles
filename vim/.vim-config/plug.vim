@@ -4,6 +4,8 @@ call plug#begin('~/.vim/plugged')
     Plug 'vim-airline/vim-airline'
 	Plug 'majutsushi/tagbar'
 	Plug 'houtsnip/vim-emacscommandline'
+	Plug 'godlygeek/tabular'
+	Plug 'plasticboy/vim-markdown'
 	" Manage Files
 	Plug 'ctrlpvim/ctrlp.vim'
 	Plug 'rking/ag.vim'
@@ -27,3 +29,4 @@ source ~/.vim-config/plugins/autocomplete.vim
 source ~/.vim-config/plugins/ctrlp.vim
 source ~/.vim-config/plugins/incsearch.vim
 source ~/.vim-config/plugins/nerdtree.vim
+source ~/.vim-config/plugins/markdown.vim
