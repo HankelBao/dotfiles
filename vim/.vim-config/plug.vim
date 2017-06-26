@@ -2,6 +2,8 @@ call plug#begin('~/.vim/plugged')
     " Interface
 	Plug 'joshdick/onedark.vim'
     Plug 'vim-airline/vim-airline'
+	Plug 'majutsushi/tagbar'
+	Plug 'houtsnip/vim-emacscommandline'
 	" Manage Files
 	Plug 'ctrlpvim/ctrlp.vim'
 	Plug 'rking/ag.vim'
