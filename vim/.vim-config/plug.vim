@@ -1,6 +1,9 @@
 call plug#begin('~/.vim/plugged')
     " Interface
 	Plug 'joshdick/onedark.vim'
+	Plug 'morhetz/gruvbox'
+	Plug 'nanotech/jellybeans.vim'
+	Plug 'altercation/vim-colors-solarized'
     Plug 'vim-airline/vim-airline'
 	Plug 'majutsushi/tagbar'
 	Plug 'houtsnip/vim-emacscommandline'
