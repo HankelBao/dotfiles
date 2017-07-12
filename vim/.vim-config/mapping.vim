@@ -22,5 +22,5 @@ noremap <Leader>whi :StripWhitespace<CR>
 
 noremap <Leader>tt !!date +\%F<CR>
 
-noremap <Leader>ne :NERDTree<CR>
+noremap <Leader>ne :NERDTreeToggle<CR>
 noremap <C-G> <ESC>
