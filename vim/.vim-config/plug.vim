@@ -1,5 +1,4 @@
 call plug#begin('~/.vim/plugged')
-	Plug 'thinca/vim-quickrun'
     " Interface
 	Plug 'joshdick/onedark.vim'
 	Plug 'morhetz/gruvbox'
@@ -26,6 +25,9 @@ call plug#begin('~/.vim/plugged')
     Plug 'Rip-Rip/clang_complete'
 	" git
 	Plug 'tpope/vim-fugitive'
+	" Complie
+	Plug 'shougo/unite.vim'
+	Plug 'thinca/vim-quickrun'
 call plug#end()
 
 source ~/.vim-config/plugins/autocomplete.vim
@@ -34,3 +36,4 @@ source ~/.vim-config/plugins/ctrlp.vim
 source ~/.vim-config/plugins/incsearch.vim
 source ~/.vim-config/plugins/nerdtree.vim
 source ~/.vim-config/plugins/markdown.vim
+source ~/.vim-config/plugins/unite.vim
