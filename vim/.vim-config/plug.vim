@@ -1,4 +1,5 @@
 call plug#begin('~/.vim/plugged')
+	Plug 'thinca/vim-quickrun'
     " Interface
 	Plug 'joshdick/onedark.vim'
 	Plug 'morhetz/gruvbox'
