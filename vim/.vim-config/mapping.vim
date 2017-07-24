@@ -24,3 +24,5 @@ noremap <Leader>tt !!date +\%F<CR>
 
 noremap <Leader>ne :NERDTreeToggle<CR>
 noremap <C-G> <ESC>
+
+noremap <f12> :QuickRun<CR>
