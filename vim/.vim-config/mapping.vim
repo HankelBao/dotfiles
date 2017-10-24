@@ -2,27 +2,30 @@
 " Mappings for Vim
 " Including those for plugins
 
-let mapleader=" "
+let mapleader=","
 
-noremap <Leader>1 :1wincmd w<CR>
-noremap <Leader>2 :2wincmd w<CR>
-noremap <Leader>3 :3wincmd w<CR>
-noremap <Leader>4 :4wincmd w<CR>
-noremap <Leader>5 :5wincmd w<CR>
-noremap <Leader>6 :6wincmd w<CR>
-noremap <Leader>7 :7wincmd w<CR>
-noremap <Leader>8 :8wincmd w<CR>
-noremap <Leader>9 :9wincmd w<CR>
+noremap <Leader>w1 :1wincmd w<CR>
+noremap <Leader>w2 :2wincmd w<CR>
+noremap <Leader>w3 :3wincmd w<CR>
+noremap <Leader>w4 :4wincmd w<CR>
+noremap <Leader>w5 :5wincmd w<CR>
+noremap <Leader>w6 :6wincmd w<CR>
+noremap <Leader>w7 :7wincmd w<CR>
+noremap <Leader>w8 :8wincmd w<CR>
+noremap <Leader>w9 :9wincmd w<CR>
 
-noremap <Leader>f :CtrlPMixed<CR>
-noremap <Leader>b :CtrlPBuffer<CR>
+noremap <Leader>xv :Unite file<CR>
+noremap <Leader>xf :CtrlPMixed<CR>
+noremap <Leader>xb :CtrlPBuffer<CR>
+noremap <Leader>xn :NERDTreeToggle<CR>
 
-noremap <Leader>cd :lcd %:p:h<CR>
-noremap <Leader>whi :StripWhitespace<CR>
+"noremap <Leader>cd :lcd %:p:h<CR>
+noremap <Leader>bw :StripWhitespace<CR>
+noremap <Leader>bh :ToggleWhitespace<CR>
 
-noremap <Leader>tt !!date +\%F<CR>
+noremap <Leader>id !!date +\%F<CR>
 
-noremap <Leader>ne :NERDTreeToggle<CR>
 noremap <C-G> <ESC>
 
 noremap <f12> :QuickRun<CR>
+noremap <space> :LeaderGuide ","<CR>
