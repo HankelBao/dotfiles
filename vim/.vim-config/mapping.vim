@@ -29,9 +29,10 @@ noremap <Leader>fq :q<CR>
 noremap <Leader>fw :wq<CR>
 noremap <Leader>fe :wqa<CR>
 noremap <Leader>fa :wa<CR>
-noremap <Leader>fv :Unite file<CR>
+noremap <Leader>fo :Denite file<CR>
+noremap <Leader>fb :Denite buffer<CR>
+noremap <Leader>fc :Denite command<CR>
 noremap <Leader>ff :CtrlPMixed<CR>
-noremap <Leader>fb :CtrlPBuffer<CR>
 noremap <Leader>fn :NERDTreeToggle<CR>
 
 "noremap <Leader>cd :lcd %:p:h<CR>
