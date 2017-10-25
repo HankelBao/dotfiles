@@ -4,6 +4,7 @@
 
 let mapleader=","
 
+noremap <Leader>z <ESC>
 let g:lmap.j = { 'name' : 'Windows Operation' }
 noremap <Leader>j1 :1wincmd w<CR>
 noremap <Leader>j2 :2wincmd w<CR>
@@ -22,7 +23,9 @@ noremap <Leader>j= <C-W>+
 noremap <Leader>j- <C-W>-
 
 let g:lmap.f = { 'name' : 'File Menu' }
-noremap <Leader>fs :w!<CR>
+noremap <Leader>fs :w<CR>
+noremap <Leader>fa :wa<CR>
+noremap <Leader>fq :qa<CR>
 noremap <Leader>fv :Unite file<CR>
 noremap <Leader>ff :CtrlPMixed<CR>
 noremap <Leader>fb :CtrlPBuffer<CR>
@@ -36,6 +39,7 @@ noremap <Leader>bb :Autoformat<CR>
 
 let g:lmap.i = { 'name' : 'Insert' }
 noremap <Leader>id !!date +\%F<CR>
+noremap <Leader>it :call feedkeys("i" . strftime('%c'))<CR> 
 
 let g:lmap.g = { 'name' : 'Git' }
 noremap <Leader>gs :Gstatus<CR>
