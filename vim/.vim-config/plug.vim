@@ -1,5 +1,7 @@
 call plug#begin('~/.vim/plugged')
     " Interface
+	Plug 'pseewald/vim-anyfold'
+	Plug 'airblade/vim-gitgutter'
 	Plug 'chiel92/vim-autoformat'
 	Plug 'joshdick/onedark.vim'
 	Plug 'morhetz/gruvbox'
@@ -34,6 +36,7 @@ call plug#begin('~/.vim/plugged')
 	" Plug 'thinca/vim-quickrun'
 	Plug 'jeffkreeftmeijer/vim-numbertoggle'
 	Plug 'hecal3/vim-leader-guide'
+	Plug 'scrooloose/nerdcommenter'
 call plug#end()
 
 source ~/.vim-config/plugins/autocomplete.vim
@@ -47,3 +50,4 @@ source ~/.vim-config/plugins/jsbeautifier.vim
 source ~/.vim-config/plugins/startify.vim
 "source ~/.vim-config/plugins/quickmenu.vim
 source ~/.vim-config/plugins/vim-leader-guide.vim
+source ~/.vim-config/plugins/anyfold.vim

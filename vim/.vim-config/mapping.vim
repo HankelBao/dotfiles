@@ -1,6 +1,7 @@
 " HankelBao
 " Mappings for Vim
 " Including those for plugins
+noremap ; :
 
 let mapleader=","
 
@@ -23,9 +24,10 @@ noremap <Leader>j= <C-W>+
 noremap <Leader>j- <C-W>-
 
 let g:lmap.f = { 'name' : 'File Menu' }
-noremap <Leader>fs :w<CR>
+noremap <Leader>fw :w<CR>
+noremap <Leader>fq :q<CR>
+noremap <Leader>fe :wqa<CR>
 noremap <Leader>fa :wa<CR>
-noremap <Leader>fq :qa<CR>
 noremap <Leader>fv :Unite file<CR>
 noremap <Leader>ff :CtrlPMixed<CR>
 noremap <Leader>fb :CtrlPBuffer<CR>
@@ -51,4 +53,5 @@ noremap <Leader>uc :source %<CR>
 noremap <Leader>up :PlugInstall<CR>
 noremap <Leader>uu :PlugUpdate<CR>
 
-noremap <space> :LeaderGuide ","<CR>
+let g:lmap.c = { 'name' : 'Commenter' }
+let g:lmap.h = { 'name' : 'History' }
