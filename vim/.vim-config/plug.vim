@@ -1,5 +1,6 @@
 call plug#begin('~/.vim/plugged')
     " Interface
+	Plug 'chiel92/vim-autoformat'
 	Plug 'joshdick/onedark.vim'
 	Plug 'morhetz/gruvbox'
 	Plug 'nanotech/jellybeans.vim'

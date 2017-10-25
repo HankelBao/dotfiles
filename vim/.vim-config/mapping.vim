@@ -4,9 +4,6 @@
 
 let mapleader=","
 
-" let g:lmap.cm = { 'name' : 'Cmd' }
-" noremap <Leader>cm :
-
 let g:lmap.j = { 'name' : 'Windows Operation' }
 noremap <Leader>j1 :1wincmd w<CR>
 noremap <Leader>j2 :2wincmd w<CR>
@@ -35,6 +32,7 @@ noremap <Leader>fn :NERDTreeToggle<CR>
 let g:lmap.b = { 'name' : 'Beautify' }
 noremap <Leader>bw :StripWhitespace<CR>
 noremap <Leader>bh :ToggleWhitespace<CR>
+noremap <Leader>bb :Autoformat<CR>
 
 let g:lmap.i = { 'name' : 'Insert' }
 noremap <Leader>id !!date +\%F<CR>
@@ -46,5 +44,7 @@ noremap <Leader>gp :Gpush<CR>
 
 let g:lmap.u = { 'name' : 'Update' }
 noremap <Leader>uc :source %<CR>
+noremap <Leader>up :PlugInstall<CR>
+noremap <Leader>uu :PlugUpdate<CR>
 
 noremap <space> :LeaderGuide ","<CR>
