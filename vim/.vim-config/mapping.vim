@@ -24,8 +24,9 @@ noremap <Leader>j= <C-W>+
 noremap <Leader>j- <C-W>-
 
 let g:lmap.f = { 'name' : 'File Menu' }
-noremap <Leader>fw :w<CR>
+noremap <Leader>fs :w<CR>
 noremap <Leader>fq :q<CR>
+noremap <Leader>fw :wq<CR>
 noremap <Leader>fe :wqa<CR>
 noremap <Leader>fa :wa<CR>
 noremap <Leader>fv :Unite file<CR>
