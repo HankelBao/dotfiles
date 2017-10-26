@@ -3,11 +3,11 @@ call plug#begin('~/.vim/plugged')
 		Plug 'plasticboy/vim-markdown'
 		Plug 'w0rp/ale'
 		Plug 'ap/vim-css-color'
-		"Plug 'klen/python-mode'
-	" Completion 
-		Plug 'Shougo/neocomplete.vim'
-		Plug 'Rip-Rip/clang_complete'
-	" Code display 
+		Plug 'klen/python-mode'
+	" Completion
+		"Plug 'Shougo/neocomplete.vim'
+		"Plug 'Rip-Rip/clang_complete'
+	" Code display
 		Plug 'flazz/vim-colorschemes'
 		Plug 'luochen1990/rainbow'
 		Plug 'vim-airline/vim-airline'
@@ -40,8 +40,7 @@ call plug#begin('~/.vim/plugged')
 		Plug 'scrooloose/nerdcommenter'
 call plug#end()
 
-source ~/.vim-config/plugins/autocomplete.vim
-source ~/.vim-config/plugins/autocomplete.vim
+"source ~/.vim-config/plugins/autocomplete.vim
 source ~/.vim-config/plugins/ctrlp.vim
 source ~/.vim-config/plugins/incsearch.vim
 source ~/.vim-config/plugins/nerdtree.vim

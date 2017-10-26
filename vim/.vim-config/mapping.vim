@@ -57,6 +57,7 @@ let g:lmap.u = { 'name' : 'Update' }
 noremap <Leader>us :source %<CR>
 noremap <Leader>ui :PlugInstall<CR>
 noremap <Leader>uu :PlugUpdate<CR>
+noremap <Leader>ud :PlugClean<CR>
 noremap <Leader>uc :Denite colorscheme<CR>
 noremap <Leader>um :tabedit ~/dotfiles/vim/.vim-config/mapping.vim<CR>
 noremap <Leader>up :tabedit ~/dotfiles/vim/.vim-config/plug.vim<CR>

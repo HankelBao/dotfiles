@@ -81,3 +81,4 @@ set nu
 set relativenumber
 set cursorline
 set fdm=indent
+let g:pymode_python = 'python3'
