@@ -72,9 +72,9 @@ vmap k gk
 
 " Basic Settings
 set autochdir
-colorscheme PaperColor
+colorscheme badwolf
 "let g:airline_theme='onedark'
-set bg=light
+set bg=dark
 set noswapfile
 
 set nu
