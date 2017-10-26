@@ -1,44 +1,45 @@
 call plug#begin('~/.vim/plugged')
-" Language
-Plug 'plasticboy/vim-markdown'
-Plug 'w0rp/ale'
-Plug 'ap/vim-css-color'
-" Completion
-Plug 'Shougo/neocomplete.vim'
-Plug 'Rip-Rip/clang_complete'
-" Code display
-Plug 'altercation/vim-colors-solarized'
-Plug 'nanotech/jellybeans.vim'
-Plug 'morhetz/gruvbox'
-Plug 'joshdick/onedark.vim'
-Plug 'tomasr/molokai'
-Plug 'NLKNguyen/papercolor-theme'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'chiel92/vim-autoformat'
-Plug 'nathanaelkane/vim-indent-guides'
-Plug 'jeffkreeftmeijer/vim-numbertoggle'
-" Integrations
-Plug 'airblade/vim-gitgutter'
-Plug 'tpope/vim-fugitive'
-" Interface
-Plug 'mhinz/vim-startify'
-Plug 'fisadev/vim-ctrlp-cmdpalette'
-Plug 'pseewald/vim-anyfold'
-Plug 'majutsushi/tagbar'
-Plug 'houtsnip/vim-emacscommandline'
-Plug 'godlygeek/tabular'
-Plug 'ctrlpvim/ctrlp.vim'
-Plug 'scrooloose/nerdtree'
-Plug 'shougo/unite.vim'
-Plug 'Shougo/denite.nvim'
-Plug 'hecal3/vim-leader-guide'
-" Commands
-Plug 'rking/ag.vim'
-Plug 'FelikZ/ctrlp-py-matcher'
-Plug 'haya14busa/incsearch.vim'
-Plug 'tpope/vim-surround'
-Plug 'scrooloose/nerdcommenter'
+	" Language
+	Plug 'plasticboy/vim-markdown'
+	Plug 'w0rp/ale'
+	Plug 'ap/vim-css-color'
+	Plug 'klen/python-mode'
+	" Completion
+	Plug 'Shougo/neocomplete.vim'
+	Plug 'Rip-Rip/clang_complete'
+	" Code display
+	Plug 'altercation/vim-colors-solarized'
+	Plug 'nanotech/jellybeans.vim'
+	Plug 'morhetz/gruvbox'
+	Plug 'joshdick/onedark.vim'
+	Plug 'tomasr/molokai'
+	Plug 'NLKNguyen/papercolor-theme'
+	Plug 'vim-airline/vim-airline'
+	Plug 'vim-airline/vim-airline-themes'
+	Plug 'chiel92/vim-autoformat'
+	Plug 'nathanaelkane/vim-indent-guides'
+	Plug 'jeffkreeftmeijer/vim-numbertoggle'
+	" Integrations
+	Plug 'airblade/vim-gitgutter'
+	Plug 'tpope/vim-fugitive'
+	" Interface
+	Plug 'mhinz/vim-startify'
+	Plug 'fisadev/vim-ctrlp-cmdpalette'
+	Plug 'pseewald/vim-anyfold'
+	Plug 'majutsushi/tagbar'
+	Plug 'houtsnip/vim-emacscommandline'
+	Plug 'godlygeek/tabular'
+	Plug 'ctrlpvim/ctrlp.vim'
+	Plug 'scrooloose/nerdtree'
+	Plug 'shougo/unite.vim'
+	Plug 'Shougo/denite.nvim'
+	Plug 'hecal3/vim-leader-guide'
+	" Commands
+	Plug 'rking/ag.vim'
+	Plug 'FelikZ/ctrlp-py-matcher'
+	Plug 'haya14busa/incsearch.vim'
+	Plug 'tpope/vim-surround'
+	Plug 'scrooloose/nerdcommenter'
 call plug#end()
 
 source ~/.vim-config/plugins/autocomplete.vim
