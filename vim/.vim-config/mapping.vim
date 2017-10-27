@@ -29,17 +29,12 @@ noremap <Leader>w. <C-W><
 noremap <Leader>w= <C-W>+
 noremap <Leader>w- <C-W>-
 
-"let g:lmap.f = { 'name' : 'File' }
-noremap <Leader>f :DeniteProjectDir file<CR>
-
-"let g:lmap.b = { 'name' : 'Buffer' }
-noremap <Leader>b :Denite buffer<CR>
-
 let g:lmap.v = { 'name' : 'View' }
 noremap <Leader>vn :NERDTreeToggle<CR>
 noremap <Leader>vf :CtrlPMixed<CR>
 noremap <Leader>vc :Denite command<CR>
 noremap <Leader>vt :TagbarToggle<CR>
+noremap <Leader>vb :CtrlPBuffer<CR>
 
 let g:lmap.i = { 'name' : 'Edit' }
 noremap <Leader>id !!date +\%F<CR>

@@ -5,7 +5,7 @@ call plug#begin('~/.vim/plugged')
 		Plug 'ap/vim-css-color'
 		Plug 'klen/python-mode'
 	" Completion
-		"Plug 'Shougo/neocomplete.vim'
+		Plug 'Shougo/neocomplete.vim'
 		"Plug 'Rip-Rip/clang_complete'
 	" Code display
 		Plug 'flazz/vim-colorschemes'
@@ -13,17 +13,12 @@ call plug#begin('~/.vim/plugged')
 		Plug 'vim-airline/vim-airline'
 		Plug 'vim-airline/vim-airline-themes'
 		Plug 'chiel92/vim-autoformat'
-		Plug 'nathanaelkane/vim-indent-guides'
-		Plug 'jeffkreeftmeijer/vim-numbertoggle'
 	" Integrations 
 		Plug 'airblade/vim-gitgutter'
 		Plug 'tpope/vim-fugitive'
 		Plug 'xuyuanp/nerdtree-git-plugin'
-		Plug 'vim-scripts/sessionman.vim'
 	" Interface 
 		Plug 'mhinz/vim-startify'
-		Plug 'fisadev/vim-ctrlp-cmdpalette'
-		Plug 'pseewald/vim-anyfold'
 		Plug 'majutsushi/tagbar'
 		Plug 'houtsnip/vim-emacscommandline'
 		Plug 'godlygeek/tabular'
@@ -48,6 +43,4 @@ source ~/.vim-config/plugins/markdown.vim
 source ~/.vim-config/plugins/unite.vim
 source ~/.vim-config/plugins/jsbeautifier.vim
 source ~/.vim-config/plugins/startify.vim
-"source ~/.vim-config/plugins/quickmenu.vim
 source ~/.vim-config/plugins/vim-leader-guide.vim
-source ~/.vim-config/plugins/anyfold.vim
