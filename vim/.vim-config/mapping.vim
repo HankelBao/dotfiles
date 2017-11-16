@@ -6,18 +6,19 @@ noremap ' :!
 
 let mapleader=","
 
-noremap <Leader>z <ESC>
+noremap <Leader>; :
+noremap <Leader>' :!
 
 let g:lmap.w = { 'name' : 'Windows' }
-noremap <Leader>w1 :1wincmd w<CR>
-noremap <Leader>w2 :2wincmd w<CR>
-noremap <Leader>w3 :3wincmd w<CR>
-noremap <Leader>w4 :4wincmd w<CR>
-noremap <Leader>w5 :5wincmd w<CR>
-noremap <Leader>w6 :6wincmd w<CR>
-noremap <Leader>w7 :7wincmd w<CR>
-noremap <Leader>w8 :8wincmd w<CR>
-noremap <Leader>w9 :9wincmd w<CR>
+noremap <Leader>1 :1wincmd w<CR>
+noremap <Leader>2 :2wincmd w<CR>
+noremap <Leader>3 :3wincmd w<CR>
+noremap <Leader>4 :4wincmd w<CR>
+noremap <Leader>5 :5wincmd w<CR>
+noremap <Leader>6 :6wincmd w<CR>
+noremap <Leader>7 :7wincmd w<CR>
+noremap <Leader>8 :8wincmd w<CR>
+noremap <Leader>9 :9wincmd w<CR>
 noremap <Leader>wh <C-W><C-H>
 noremap <Leader>wj <C-W><C-J>
 noremap <Leader>wk <C-W><C-K>
@@ -29,12 +30,17 @@ noremap <Leader>w. <C-W><
 noremap <Leader>w= <C-W>+
 noremap <Leader>w- <C-W>-
 
+"let g:lmap.b = { 'name' : 'Buffer' }
+noremap <Leader>o :CtrlPMixed<CR>
+noremap <Leader>b :CtrlPBuffer<CR>
+
 let g:lmap.v = { 'name' : 'View' }
 noremap <Leader>vn :NERDTreeToggle<CR>
-noremap <Leader>vf :CtrlPMixed<CR>
-noremap <Leader>vc :Denite command<CR>
 noremap <Leader>vt :TagbarToggle<CR>
-noremap <Leader>vb :CtrlPBuffer<CR>
+
+noremap <Leader>ff :tabedit 
+noremap <Leader>fe :wqa!<CR>
+noremap <Leader>fs :w!<CR>
 
 let g:lmap.i = { 'name' : 'Edit' }
 noremap <Leader>id !!date +\%F<CR>
