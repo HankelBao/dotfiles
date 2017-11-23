@@ -38,7 +38,7 @@ let g:lmap.v = { 'name' : 'View' }
 noremap <Leader>vn :NERDTreeToggle<CR>
 noremap <Leader>vt :TagbarToggle<CR>
 
-noremap <Leader>ff :tabedit 
+noremap <Leader>ff :tabedit
 noremap <Leader>fe :wqa!<CR>
 noremap <Leader>fs :w!<CR>
 
@@ -67,8 +67,5 @@ noremap <Leader>ub :tabedit ~/dotfiles/vim/.vim-config/basic.vim<CR>
 let g:lmap.c = { 'name' : 'Commenter' }
 let g:lmap.h = { 'name' : 'History' }
 
-let g:lmap.s = { 'name' : 'Session' }
-noremap <Leader>ss :SessionSave<CR>
-noremap <Leader>sl :SessionList<CR>
-noremap <Leader>sq :SessionClose<CR>
-noremap <Leader>so :SeesionOpen<CR>
+let g:lmap.s = { 'name' : 'Worksapce' }
+noremap <Leader>pt :ToggleWorkspace<CR>
