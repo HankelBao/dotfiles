@@ -9,7 +9,7 @@ let mapleader=","
 noremap <Leader>; :
 noremap <Leader>' :!
 
-let g:lmap.w = { 'name' : 'Windows' }
+" let g:lmap.w = { 'name' : 'Windows' }
 noremap <Leader>1 :1wincmd w<CR>
 noremap <Leader>2 :2wincmd w<CR>
 noremap <Leader>3 :3wincmd w<CR>
@@ -19,16 +19,17 @@ noremap <Leader>6 :6wincmd w<CR>
 noremap <Leader>7 :7wincmd w<CR>
 noremap <Leader>8 :8wincmd w<CR>
 noremap <Leader>9 :9wincmd w<CR>
-noremap <Leader>wh <C-W><C-H>
-noremap <Leader>wj <C-W><C-J>
-noremap <Leader>wk <C-W><C-K>
-noremap <Leader>wl <C-W><C-L>
-noremap <Leader>wv :vsplit<CR>
-noremap <Leader>ws :split<CR>
-noremap <Leader>w, <C-W>>
-noremap <Leader>w. <C-W><
-noremap <Leader>w= <C-W>+
-noremap <Leader>w- <C-W>-
+noremap <Leader>w <C-W>
+"noremap <Leader>wh <C-W><C-H>
+"noremap <Leader>wj <C-W><C-J>
+"noremap <Leader>wk <C-W><C-K>
+"noremap <Leader>wl <C-W><C-L>
+"noremap <Leader>wv :vsplit<CR>
+"noremap <Leader>ws :split<CR>
+"noremap <Leader>w, <C-W>>
+"noremap <Leader>w. <C-W><
+"noremap <Leader>w= <C-W>+
+"noremap <Leader>w- <C-W>-
 
 "let g:lmap.b = { 'name' : 'Buffer' }
 noremap <Leader>o :CtrlPMixed<CR>
