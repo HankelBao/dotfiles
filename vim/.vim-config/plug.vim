@@ -5,6 +5,7 @@ call plug#begin('~/.vim/plugged')
 		Plug 'ap/vim-css-color'
 	" Completion
 		Plug 'klen/python-mode'
+		"Plug 'valloric/youcompleteme'
 		"Plug 'Rip-Rip/clang_complete'
 	" Code display
 		Plug 'flazz/vim-colorschemes'

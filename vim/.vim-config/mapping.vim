@@ -42,6 +42,7 @@ noremap <Leader>vt :TagbarToggle<CR>
 noremap <Leader>ff :tabedit
 noremap <Leader>fe :wqa!<CR>
 noremap <Leader>fs :w!<CR>
+noremap <Leader>fq :qa!<CR>
 
 let g:lmap.i = { 'name' : 'Edit' }
 noremap <Leader>id !!date +\%F<CR>
