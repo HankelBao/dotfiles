@@ -33,7 +33,7 @@ noremap <Leader>w <C-W>
 
 "let g:lmap.b = { 'name' : 'Buffer' }
 noremap <Leader>o :CtrlPMixed<CR>
-noremap <Leader>b :CtrlPBuffer<CR>
+noremap <Leader>q :q<CR>
 
 let g:lmap.v = { 'name' : 'View' }
 noremap <Leader>vn :NERDTreeToggle<CR>
@@ -43,6 +43,7 @@ noremap <Leader>ff :tabedit
 noremap <Leader>fe :wqa!<CR>
 noremap <Leader>fs :w!<CR>
 noremap <Leader>fq :qa!<CR>
+noremap <Leader>fb :CtrlPBuffer<CR>
 
 let g:lmap.i = { 'name' : 'Edit' }
 noremap <Leader>id !!date +\%F<CR>
