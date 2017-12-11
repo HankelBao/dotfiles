@@ -72,8 +72,8 @@ vmap k gk
 
 " Basic Settings
 set autochdir
-colorscheme badwolf
-"let g:airline_theme='onedark'
+colorscheme Tomorrow 
+let g:airline_theme='tomorrow'
 set bg=dark
 set noswapfile
 

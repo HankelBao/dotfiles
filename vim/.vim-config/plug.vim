@@ -5,14 +5,14 @@ call plug#begin('~/.vim/plugged')
 		Plug 'ap/vim-css-color'
 	" Completion
 		Plug 'klen/python-mode'
-		"Plug 'valloric/youcompleteme'
+		" Plug 'valloric/youcompleteme'
 		"Plug 'Rip-Rip/clang_complete'
 	" Code display
 		Plug 'flazz/vim-colorschemes'
 		Plug 'luochen1990/rainbow'
-		" Plug 'vim-airline/vim-airline'
-		" Plug 'vim-airline/vim-airline-themes'
-		Plug 'itchyny/lightline.vim'
+		Plug 'vim-airline/vim-airline'
+		Plug 'vim-airline/vim-airline-themes'
+		" Plug 'itchyny/lightline.vim'
 		Plug 'chiel92/vim-autoformat'
 	" Integrations
 		Plug 'airblade/vim-gitgutter'
