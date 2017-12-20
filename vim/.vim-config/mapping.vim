@@ -39,7 +39,7 @@ let g:lmap.v = { 'name' : 'View' }
 noremap <Leader>vn :NERDTreeToggle<CR>
 noremap <Leader>vt :TagbarToggle<CR>
 
-noremap <Leader>ff :tabedit
+noremap <Leader>ff :edit 
 noremap <Leader>fe :wqa!<CR>
 noremap <Leader>fs :w!<CR>
 noremap <Leader>fq :qa!<CR>
