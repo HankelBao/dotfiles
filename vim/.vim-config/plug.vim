@@ -1,12 +1,12 @@
 call plug#begin('~/.vim/plugged')
 	" Language
+		Plug 'godlygeek/tabular'
 		Plug 'plasticboy/vim-markdown'
 		Plug 'w0rp/ale'
 		Plug 'ap/vim-css-color'
 	" Completion
-		Plug 'klen/python-mode'
-		" Plug 'valloric/youcompleteme'
-		"Plug 'Rip-Rip/clang_complete'
+		"Plug 'klen/python-mode'
+		Plug 'valloric/youcompleteme'
 	" Code display
 		Plug 'flazz/vim-colorschemes'
 		Plug 'luochen1990/rainbow'
@@ -14,10 +14,12 @@ call plug#begin('~/.vim/plugged')
 		Plug 'vim-airline/vim-airline-themes'
 		" Plug 'itchyny/lightline.vim'
 		Plug 'chiel92/vim-autoformat'
+		Plug 'jszakmeister/markdown2ctags'
 	" Integrations
 		Plug 'airblade/vim-gitgutter'
 		Plug 'tpope/vim-fugitive'
 		Plug 'xuyuanp/nerdtree-git-plugin'
+		Plug 'okcompute/vim-ctrlp-session'
 	" Interface
 		Plug 'thaerkh/vim-workspace'
 		Plug 'mhinz/vim-startify'
