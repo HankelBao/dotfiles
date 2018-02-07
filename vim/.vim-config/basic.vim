@@ -72,7 +72,7 @@ vmap k gk
 
 " Basic Settings
 set autochdir
-colorscheme Tomorrow
+colorscheme Tomorrow-Night-Eighties
 let g:airline_theme='tomorrow'
 set bg=dark
 set noswapfile

@@ -5,8 +5,8 @@ call plug#begin('~/.vim/plugged')
 		Plug 'w0rp/ale'
 		Plug 'ap/vim-css-color'
 	" Completion
-		"Plug 'klen/python-mode'
-		Plug 'valloric/youcompleteme'
+		Plug 'klen/python-mode'
+		"Plug 'valloric/youcompleteme'
 	" Code display
 		Plug 'flazz/vim-colorschemes'
 		Plug 'luochen1990/rainbow'
